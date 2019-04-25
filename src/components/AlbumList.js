@@ -24,6 +24,7 @@ class AlbumList extends Component {
                     key={album.title}
                     title={album.title}
                     artist={album.artist}
+                    thumbnail={album.thumbnail_image}
                 />
             )
         })
